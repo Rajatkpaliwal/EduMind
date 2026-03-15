@@ -131,7 +131,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Rajatkpaliwal/EduMind.git
-cd chatbot-blueprint
+cd EduMind
 ```
 
 Install dependencies:
@@ -149,7 +149,6 @@ Create a `.env` file in the project root:
 ```
 GROQ_API_KEY=your_groq_api_key
 SERPER_API_KEY=your_serper_api_key
-MODEL_NAME=llama-3.1-8b-instant
 ```
 
 You can obtain API keys from:
@@ -235,13 +234,6 @@ before sending the request to the LLM.
 ### Vector Search
 
 Semantic search is performed using **FAISS vector similarity search**.
-
-```
-GROQ_API_KEY="your_key"
-SERPER_API_KEY="your_key"
-```
-
-Deploy the app.
 
 ---
 
